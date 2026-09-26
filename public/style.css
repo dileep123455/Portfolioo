@@ -450,7 +450,6 @@ body {
 .skill-icon.html { color: #e34f26; }
 .skill-icon.css { color: #1572b6; }
 .skill-icon.js { color: #f7df1e; }
-.skill-icon.node { color: #68a063; }
 .skill-icon.python { color: #3776ab; }
 .skill-icon.c-lang { color: #00599c; }
 .skill-icon.github { color: #ffffff; }
@@ -463,15 +462,10 @@ body {
 
 .skill-level {
     font-size: 0.75rem;
-    color: var(--accent-cyan);
-    background: rgba(56, 189, 248, 0.1);
-    padding: 0.15rem 0.5rem;
-    border-radius: 20px;
-}
-
-.skill-card.learning .skill-level {
     color: var(--accent-purple);
     background: rgba(168, 85, 247, 0.1);
+    padding: 0.15rem 0.5rem;
+    border-radius: 20px;
 }
 
 /* Projects */
