@@ -1,248 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-
-  <meta
-    name="description"
-    content="Dileep Kumar H — Computer Science and Engineering student and aspiring software developer."
-  >
-
-  <title>Dileep Kumar H | CSE Student</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  >
-
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dileep Kumar H | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-
-
 <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-bracket">&lt;</span>Dileep<span class="logo-accent">.H</span><span class="logo-bracket">/&gt;</span>
+            </a>
+            
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
 
-  <div class="background-glow glow-one"></div>
-  <div class="background-glow glow-two"></div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
 
-  <header class="nav-wrap">
-    <nav class="nav container">
-      <a href="#home" class="logo">D<span>.</span>H</a>
-      <button class="menu-btn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#goals">Goals</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </div>
+            <div class="nav-socials">
+                <a href="https://github.com/dileep123455" target="_blank" rel="noopener noreferrer" class="social-btn" title="GitHub Profile">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/dileepkumarhh" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn Profile">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
     </nav>
-  </header>
 
-  <main>
-
-    <!-- HERO -->
-    <section id="home" class="hero container">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">CSE STUDENT • SOFTWARE DEVELOPMENT</p>
-        <h1>Hi, I'm <span>Dileep Kumar H.</span></h1>
-        <p class="hero-text">
-          A first-year Computer Science & Engineering student at
-          REVA University, building strong foundations in programming,
-          web development and software engineering.
-        </p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#projects">Explore My Work</a>
-          <a class="btn secondary" href="#contact">Let's Connect</a>
-        </div>
-      </div>
-
-      <div class="hero-card reveal">
-        <div class="orbit orbit-one"></div>
-        <div class="orbit orbit-two"></div>
-        <div class="profile-placeholder">
-          <span>DH</span>
-          <small></small>
-        </div>
-        <div class="floating-chip chip-one">HTML</div>
-        <div class="floating-chip chip-two">CSS</div>
-        <div class="floating-chip chip-three">Python</div>
-        <div class="floating-chip chip-four">GitHub</div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section id="about" class="section container">
-      <div class="section-heading reveal">
-        <p class="eyebrow">01 / ABOUT</p>
-        <h2>Learning. Building. Growing.</h2>
-      </div>
-
-      <div class="about-grid">
-        <article class="glass-card reveal">
-          <h3>Who I am</h3>
-          <p>
-            I'm Dileep Kumar H, a Computer Science & Engineering
-            student interested in software development, web development,
-            programming, AI and emerging technology.
-          </p>
-          <p>I'm focused on learning by building projects and strengthening my fundamentals one step at a time.</p>
-        </article>
-
-        <article class="glass-card highlight-card reveal">
-          <span class="card-number">01</span>
-          <h3>Current focus</h3>
-          <p>Improving programming fundamentals, building web projects, learning C and developing problem-solving skills.</p>
-        </article>
-
-        <article class="glass-card highlight-card reveal">
-          <span class="card-number">02</span>
-          <h3>Long-term direction</h3>
-          <p>Grow into a strong software engineer, explore machine learning, and build useful real-world technology products.</p>
-        </article>
-      </div>
-    </section>
-
-    <!-- EDUCATION -->
-    <section id="education" class="section container">
-      <div class="section-heading reveal">
-        <p class="eyebrow">02 / EDUCATION</p>
-        <h2>My academic journey.</h2>
-      </div>
-
-      <div class="education-timeline">
-
-        <article class="education-card current reveal">
-          <div class="education-number">01</div>
-          <div class="education-content">
-            <div class="education-status">CURRENT</div>
-            <h3>Bachelor of Technology / Engineering</h3>
-            <h4>Computer Science & Engineering</h4>
-            <p>REVA University, Bengaluru</p>
-            <span class="education-year">Currently Pursuing</span>
-          </div>
-        </article>
-
-        <article class="education-card reveal">
-          <div class="education-number">02</div>
-          <div class="education-content">
-            <h3>2nd PUC — PCMC</h3>
-            <h4>Sri Aurobindo PU College</h4>
-            <p>Shivamogga, Karnataka</p>
-            <div class="education-result"><strong>96.5%</strong><span>Percentage</span></div>
-          </div>
-        </article>
-
-        <article class="education-card reveal">
-          <div class="education-number">03</div>
-          <div class="education-content">
-            <h3>High School</h3>
-            <h4>Navachethana High School</h4>
-            <p>Channagiri, Karnataka</p>
-            <div class="education-result"><strong>89%</strong><span>Percentage</span></div>
-          </div>
-        </article>
-
-      </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section id="skills" class="section container">
-      <div class="section-heading reveal">
-        <p class="eyebrow">03 / SKILLS</p>
-        <h2>My current toolkit.</h2>
-      </div>
-
-      <div class="skills-grid">
-        <div class="skill-card reveal"><span>01</span><h3>HTML</h3><p>Semantic structure and page layouts.</p></div>
-        <div class="skill-card reveal"><span>02</span><h3>CSS</h3><p>Responsive layouts, styling and modern UI.</p></div>
-        <div class="skill-card reveal"><span>03</span><h3>Python</h3><p>Programming and problem-solving foundations.</p></div>
-        <div class="skill-card reveal"><span>04</span><h3>SQL</h3><p>Basic database and query concepts.</p></div>
-        <div class="skill-card learning reveal"><span>05</span><h3>C</h3><p>Currently learning programming fundamentals.</p><b>LEARNING</b></div>
-        <div class="skill-card learning reveal"><span>06</span><h3>Machine Learning</h3><p>Next on my list — exploring the basics of ML.</p><b>SEEKING</b></div>
-      </div>
-    </section>
-
-    <!-- GOALS -->
-    <section id="goals" class="section goals-section">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="eyebrow">04 / CAREER GOALS</p>
-          <h2>Aiming high, starting small.</h2>
-        </div>
-        <div class="goal-layout">
-          <div class="goal-copy reveal">
-            <p>
-              My goal is to develop strong software engineering skills,
-              work on challenging technology problems, and eventually
-              contribute to products used by millions of people.
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-badge">
+                <span class="pulse-dot"></span> 1st Year B.Tech CSE @ REVA University
+            </div>
+            <h1 class="hero-title">
+                Hi, I'm <span class="highlight-text">Dileep Kumar H</span>
+            </h1>
+            <p class="hero-subtitle">
+                Aspiring Software Engineer & Web Developer crafting modern digital experiences, exploring real-world applications, and striving to make an impact in top tech companies.
             </p>
-          </div>
+
+            <div class="hero-stats">
+                <div class="stat-card">
+                    <div class="stat-value">REVA Univ</div>
+                    <div class="stat-label">B.Tech CSE (1st Year)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">96.5%</div>
+                    <div class="stat-label">12th Grade (Sri Aurobindo PU)</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">89.0%</div>
+                    <div class="stat-label">10th Grade (Navachethana)</div>
+                </div>
+            </div>
+
+            <div class="hero-actions">
+                <a href="https://github.com/dileep123455" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                    <i class="fa-brands fa-github"></i> View GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/dileepkumarhh" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <i class="fa-brands fa-linkedin"></i> Connect on LinkedIn
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fa-regular fa-paper-plane"></i> Contact Me
+                </a>
+            </div>
         </div>
-      </div>
-    </section>
+    </header>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section container">
-      <div class="section-heading reveal">
-        <p class="eyebrow">05 / PROJECTS</p>
-        <h2>Things I'm building.</h2>
-      </div>
+    <main>
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-container">
+                <h2 class="section-title"><i class="fa-solid fa-user-gear"></i> About Me</h2>
+                <div class="about-grid">
+                    <div class="about-content">
+                        <p>
+                            I am a passionate 1st-year Computer Science & Engineering student at REVA University. I enjoy building web software, solving logical problems, and learning low-level and high-level programming paradigms.
+                        </p>
+                        <p>
+                            Currently, I have mastered core web technologies like <strong>HTML, CSS, JavaScript, and Node.js</strong>, as well as <strong>Python</strong>. I am actively expanding my skillset into <strong>C Programming</strong> and version control with <strong>Git & GitHub</strong>, while working on hands-on real-world projects.
+                        </p>
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span>Strong Academic Foundation</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-code"></i>
+                                <span>Full-Stack Web Trajectory</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-rocket"></i>
+                                <span>Dreaming Big for Industry Excellence</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      <div class="projects-grid">
-        <article class="project-card reveal">
-          <div class="project-top"><span>01</span><span>WEB</span></div>
-          <h3>Student Hub</h3>
-          <p>A student-focused web concept for organizing useful academic resources and information.</p>
-          <div class="tags"><span>HTML</span><span>CSS</span></div>
-        </article>
+        <!-- Education Section -->
+        <section id="education" class="section section-alt">
+            <div class="section-container">
+                <h2 class="section-title"><i class="fa-solid fa-graduation-cap"></i> Academic Journey</h2>
+                <div class="timeline">
+                    <!-- College -->
+                    <div class="timeline-card">
+                        <div class="timeline-badge"><i class="fa-solid fa-university"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Present • 1st Year</span>
+                            <h3>B.Tech in Computer Science & Engineering</h3>
+                            <h4>REVA University, Bengaluru</h4>
+                            <p>Pursuing foundational core concepts in computer science, software engineering, computational algorithms, and modern web application development.</p>
+                        </div>
+                    </div>
 
-        <article class="project-card reveal">
-          <div class="project-top"><span>02</span><span>WEB</span></div>
-          <h3>Web Experiments</h3>
-          <p>Small interface experiments created while learning layouts, responsive design and UI fundamentals.</p>
-          <div class="tags"><span>HTML</span><span>CSS</span></div>
-        </article>
+                    <!-- 12th PUC -->
+                    <div class="timeline-card">
+                        <div class="timeline-badge"><i class="fa-solid fa-award"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Completed</span>
+                            <h3>12th Pre-University Education (PUC)</h3>
+                            <h4>Sri Aurobindo PU College</h4>
+                            <p class="score-tag">Academic Score: <strong>96.5%</strong></p>
+                            <p>Demonstrated consistent academic excellence with a primary focus on Mathematics, Physics, Chemistry, and Logical Reasoning.</p>
+                        </div>
+                    </div>
 
-        <article class="project-card coming reveal">
-          <div class="project-top"><span>03</span><span>NEXT</span></div>
-          <h3>More coming soon</h3>
-          <p>New projects will be added as I continue learning Python, C, HTML, CSS and ML.</p>
-          <div class="tags"><span>LEARNING</span></div>
-        </article>
-      </div>
-    </section>
+                    <!-- 10th School -->
+                    <div class="timeline-card">
+                        <div class="timeline-badge"><i class="fa-solid fa-school"></i></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Completed</span>
+                            <h3>10th Secondary Schooling (SSLC)</h3>
+                            <h4>Navachethana High School</h4>
+                            <p class="score-tag">Academic Score: <strong>89.0%</strong></p>
+                            <p>Built strong fundamental problem-solving and science-mathematics discipline.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- CONTACT -->
-    <section id="contact" class="section container contact-section">
-      <div class="contact-card reveal">
-        <div>
-          <p class="eyebrow">06 / CONTACT</p>
-          <h2>Let's build something.</h2>
-          <p>Interested in my work or want to connect? Reach out through the links below.</p>
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="section-container">
+                <h2 class="section-title"><i class="fa-solid fa-laptop-code"></i> Skills & Tech Stack</h2>
+                
+                <div class="skills-wrapper">
+                    <!-- Learned Skills -->
+                    <div class="skills-category">
+                        <h3><i class="fa-solid fa-check-double"></i> Mastered & Learned</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card">
+                                <i class="fa-brands fa-html5 skill-icon html"></i>
+                                <span class="skill-name">HTML5</span>
+                                <span class="skill-level">Learned</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-brands fa-css3-alt skill-icon css"></i>
+                                <span class="skill-name">CSS3</span>
+                                <span class="skill-level">Learned</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-brands fa-js skill-icon js"></i>
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-level">Learned</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-brands fa-node-js skill-icon node"></i>
+                                <span class="skill-name">Node.js</span>
+                                <span class="skill-level">Learned</span>
+                            </div>
+                            <div class="skill-card">
+                                <i class="fa-brands fa-python skill-icon python"></i>
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">Learned</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Currently Learning -->
+                    <div class="skills-category">
+                        <h3><i class="fa-solid fa-spinner fa-spin-pulse"></i> Currently Learning & Mastering</h3>
+                        <div class="skills-grid">
+                            <div class="skill-card learning">
+                                <i class="fa-solid fa-c skill-icon c-lang"></i>
+                                <span class="skill-name">C Language</span>
+                                <span class="skill-level">In Progress</span>
+                            </div>
+                            <div class="skill-card learning">
+                                <i class="fa-brands fa-github skill-icon github"></i>
+                                <span class="skill-name">Git & GitHub</span>
+                                <span class="skill-level">In Progress</span>
+                            </div>
+                            <div class="skill-card learning">
+                                <i class="fa-solid fa-cubes skill-icon real-world"></i>
+                                <span class="skill-name">Real-World Projects</span>
+                                <span class="skill-level">Exploring</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section section-alt">
+            <div class="section-container">
+                <h2 class="section-title"><i class="fa-solid fa-diagram-project"></i> Real-World Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fa-solid fa-folder-open project-folder"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/dileep123455" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3>Personal Developer Portfolio</h3>
+                        <p>A sleek, dark-themed responsive portfolio showcasing academic achievements, tech skills, and personal social connections.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fa-solid fa-server project-folder"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/dileep123455" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3>Node.js Backend & API Explorations</h3>
+                        <p>Server-side JavaScript explorations using Node.js, building REST API endpoints, handling requests, and file system operations.</p>
+                        <div class="project-tech">
+                            <span>Node.js</span>
+                            <span>JavaScript</span>
+                            <span>JSON</span>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <i class="fa-solid fa-code project-folder"></i>
+                            <div class="project-links">
+                                <a href="https://github.com/dileep123455" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                        <h3>Python & C Utility Tools</h3>
+                        <p>Collection of algorithms and problem-solving programs developed as part of fundamental computer science learning.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>C</span>
+                            <span>Algorithms</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-container">
+                <h2 class="section-title"><i class="fa-solid fa-envelope"></i> Connect & Contact</h2>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Let's Build Something Together!</h3>
+                        <p>Feel free to reach out to me for project collaborations, learning opportunities, or professional networking.</p>
+
+                        <div class="contact-items">
+                            <a href="https://github.com/dileep123455" target="_blank" rel="noopener noreferrer" class="contact-item">
+                                <i class="fa-brands fa-github contact-icon"></i>
+                                <div>
+                                    <h4>GitHub</h4>
+                                    <span>github.com/dileep123455</span>
+                                </div>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/dileepkumarhh" target="_blank" rel="noopener noreferrer" class="contact-item">
+                                <i class="fa-brands fa-linkedin contact-icon"></i>
+                                <div>
+                                    <h4>LinkedIn</h4>
+                                    <span>linkedin.com/in/dileepkumarhh</span>
+                                </div>
+                            </a>
+
+                            <div class="contact-item">
+                                <i class="fa-solid fa-location-dot contact-icon"></i>
+                                <div>
+                                    <h4>Location</h4>
+                                    <span>REVA University, Bengaluru, India</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" required placeholder="Hi Dileep, I'd like to connect..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fa-solid fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">
+        <i class="fa-solid fa-circle-check"></i>
+        <span id="toastMessage">Message sent successfully!</span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2026 Dileep Kumar H. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/dileep123455" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/dileepkumarhh" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            </div>
         </div>
+    </footer>
 
-        <div class="contact-links">
-          <a href="mailto:dileep99726@gmail.com">Email ↗</a>
-          <a href="https://github.com/dileep123455/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-          <a href="https://linkedin.com/in/dileepkumarhh" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="footer container">
-    <span>© <span id="year"></span> Dileep Kumar H</span>
-    <span>Built while learning.</span>
-  </footer>
-
-  <script src="script.js"></script>
-
+    <script src="script.js"></script>
 </body>
-
 </html>
